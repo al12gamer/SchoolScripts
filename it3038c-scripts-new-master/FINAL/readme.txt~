@@ -1,0 +1,6 @@
+Run this after you find your music files using the scraper found here:
+https://github.com/carlthome/audio-scraper
+
+NOTE: MY SCRIPT WAS ONLY TESTED TO WORK ON CENTOS 64 BIT AND 64BIT ARCH LINUX
+My script will sort your files into a folder of just mp3s and other music files.
+I recommend running this in the same directory as the audio scraper's results.

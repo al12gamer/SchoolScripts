@@ -1,0 +1,11 @@
+import json
+import requests
+
+print('HERE! LOOK AT THE GLORIOUS WIDGETS AND COLORS!')
+
+r = requests.get('http://localhost:3000/widgets')
+
+data = r.json()
+
+for widget in data:
+	print(widget["name"] + ' is the color ' + widget["color"])
